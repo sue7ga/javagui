@@ -43,6 +43,8 @@ public class SampleApp extends JFrame{
 		textField2 = new JTextField();
 		buttonPane = new JPanel();
 		
+		System.out.println("aaa");
+		
 		buttonPane.add(addButton);
 		buttonPane.add(clearButton);
 		contentPane.add(textField,BorderLayout.NORTH);
